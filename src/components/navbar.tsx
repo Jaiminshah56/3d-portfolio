@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { logo, menu, close } from "../assets";
 import { NAV_LINKS } from "../constants";
 import { styles } from "../styles";
+import { cn } from "../utils/lib";
 
 // Navbar
 export const Navbar = () => {
